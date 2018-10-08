@@ -15,7 +15,8 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "jekyll", "~> 3.8"
   spec.add_runtime_dependency "jekyll-seo-tag", "~> 2.5.0"
   spec.add_runtime_dependency 'bootstrap', '~> 4.1.3'
-  spec.add_development_dependency "jekyll-assets"
+  spec.add_runtime_dependency 'font-awesome-sass', '~> 5.3', '>= 5.3.1'
+  spec.add_development_dependency 'jekyll-assets', '~> 3.0', '>= 3.0.11'
 
   spec.add_development_dependency "bundler", "~> 1.16"
   spec.add_development_dependency "rake", "~> 12.0"
